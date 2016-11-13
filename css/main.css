@@ -106,9 +106,16 @@ body {
     border: 1px solid red;
 }
 
+.page-header {
+    background-color: black;
+    color: #fff;
+    padding: 1em;
+}
 
-
-
+.page-header h1 {
+    margin: 0;
+    font-size: 1em;
+}
 
 
 
