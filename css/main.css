@@ -98,12 +98,15 @@ textarea {
 html {
   box-sizing: border-box;
 }
+
 *, *:before, *:after {
   box-sizing: inherit;
 }
 
 body {
-    border: 1px solid red;
+    max-width: 600px;
+    margin: auto;
+
 }
 
 .page-header {
@@ -117,12 +120,40 @@ body {
     font-size: 1em;
 }
 
+.main-section {
+    background-image: url(../img/purple-bg.jpeg);
+    margin-top:-20px;
+    height: 300px;
+    color: #fff;
 
 
+}
+.main-section h2 {
+    font-size: 3em;
+    margin-top: 0;
+    margin-left: 180px;
+    max-width: 100px;
+    text-align: center;
+}
 
+.main-section h3 {
+    border: 1px solid white;
+    max-width: 140px;
+    padding: 10px;
+    text-align: center;
+    margin-left: 220px;
+}
 
+.project-list img {
+    max-width: 100px
+    max-height: 100px;
+}
 
-
+.page-footer {
+    text-align: center;
+    padding-top: 20px;
+    border-top: 2px solid #E3E3E3;
+}
 
 
 
